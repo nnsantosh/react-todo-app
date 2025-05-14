@@ -1,7 +1,4 @@
-aws cloudformation create-stack \
- --stack-name react-app-hosting \
- --template-body file://react-app-infrastructure.yml \
- --parameters ParameterKey=ApplicationName,ParameterValue=myreactapp
+run the provision-infra.sh script for provisioning the AWS resources
 
 After Deployment
 After you deploy this template, CloudFormation will output:
